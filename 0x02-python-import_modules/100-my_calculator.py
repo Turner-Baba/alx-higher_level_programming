@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# a python program that imports functions from a file and handle basic operations
+# python program that imports functions from a file and handle basic operations
 
 if __name__ == "__main__":
     from calculator_1 import add, sub, mul, div
