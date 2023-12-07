@@ -1,11 +1,10 @@
 #!/usr/bin/python3
-
 def weight_average(my_list=[]):
     if not my_list:
-        return o
-    f = 0
-    d = 0
+        return 0
+    fig = 0
+    dig = 0
     for num in my_list:
-        f += num[0] * num[1]
-        d += num[1]
-    return (f / d )
+        fig += num[0] * num[1]
+        dig += num[1]
+    return (fig / dig)
